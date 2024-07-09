@@ -1,0 +1,51 @@
+path: ./pandf # dataset root dir     --./limit  
+train: images/train  # train images (relative to 'path') 128 images  相对路径limit\images\train
+val: images/val # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 2  # number of classes   80  license plate   
+names: ['license plate','face' ]
+
+
+
+
+
+
+
+
+# names: [
+# LBC_Unknown = 0, // 未知
+
+# LBC_GeneralCar = 100, // 机动车大类  car类型
+#  LBC_Car = 101, // 轿车
+# LBC_Bus = 102,// 大巴
+# LBC_Midibus = 103,// 小巴
+# LBC_Truck = 104, // 货车
+# LBC_Van = 105, // 面包车
+#LBC_Semitrailer = 106, // 货柜车
+# LBC_Trailer = 107, // 拖车
+# LBC_SUV = 108, // SUV
+# LBC_TinyCar = 109, // 微型车
+
+# LBC_GeneralMinority = 200, // 弱势参与者大类 
+# LBC_Pedestrian = 201, // 行人 #
+# LBC_Bicycle = 202, // 自行车   #
+# LBC_Tricycle = 203, // 三轮车
+# LBC_Motorbike = 204, // 摩托车
+# LBC_Wheelchair = 205, // 轮椅
+# LBC_Animal = 206, // 动物     #
+
+# LBC_GeneralStatic = 300, // 静态目标大类
+# LBC_ZebraCrossing = 301, // 斑马线    #
+# LBC_TrafficLight = 302, // 交通灯     #
+# LBC_TrafficSign = 303, // 交通信号标识#
+# LBC_ParkingSlot = 304, // 车位       #
+# LBC_Cone = 305, // 锥形路障          #
+# LBC_ManholeCover = 306, // 井盖      #
+# LBC_Patch = 307, // 路面补丁         #
+# LBC_Gantry = 308, // 龙门架          #
+# LBC_Pole = 309, // 竖杆             #
+# LBC_Tree = 310, // 树木              
+# LBC_Vegetation = 311, // 灌木
+# LBC_Building = 312, // 建筑物

@@ -1,0 +1,8 @@
+path: ./pk # dataset root dir     --./limit  
+train: images/train  # train images (relative to 'path') 128 images  相对路径limit\images\train
+val: images/val # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 5  # number of classes   80
+names: ['pavement patches','manhole covers','Tapered barricades','gantry','Parking spaces' ]

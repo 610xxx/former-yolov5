@@ -1,0 +1,8 @@
+path: ./limit # dataset root dir     --./limit    D:\workspace\yolo\litiobj\yolov5_attention\128limit
+train: images/train  # train images (relative to 'path') 128 images  相对路径limit\images\train
+val: images/val # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 11  # number of classes   80   图片尺寸为128小图 . .       ['sl40', 'sl70','sl50','sl60','sl120','sl100','sl80','sl30','sl90','sl20',]
+names: ['sl60', 'sl40','sl70','sl100','sl30','sl20','sl50','sl80','sl120','sl90','tl',]
